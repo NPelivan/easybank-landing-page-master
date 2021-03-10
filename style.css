@@ -1,0 +1,58 @@
+body {
+  font-size: 18px;
+}
+
+header {
+  background-color: white;
+  z-index: -100000;
+}
+
+.nav-link {
+  color: hsl(233, 8%, 62%);
+}
+
+.nav-link:hover {
+  color: black;
+}
+
+.navbar {
+  height: 80px;
+}
+
+button {
+  color: white;
+  border: 0;
+  background: -webkit-linear-gradient(
+    left,
+    hsl(136, 65%, 51%),
+    hsl(192, 70%, 51%)
+  );
+  padding: 1% 2.5% 1% 2.5%;
+  border-radius: 30px;
+  font-weight: 500;
+}
+
+button:hover {
+  opacity: 0.6;
+}
+
+.hero-image {
+  overflow: hidden;
+}
+
+section {
+  overflow: hidden;
+}
+
+.hero-image > img {
+  position: absolute;
+  right: -9%;
+  top: -9%;
+  z-index: -99999;
+}
+
+.hero-image > img:nth-of-type(1) {
+  position: absolute;
+  right: -30%;
+  top: -25%;
+}
