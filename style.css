@@ -67,6 +67,10 @@ button:hover {
   opacity: 0.6;
 }
 
+.intro-container {
+  background: linear-gradient(hsl(0, 0%, 98%), white);
+}
+
 .introduction {
   margin-left: 12%;
 }
@@ -104,7 +108,7 @@ p {
 
 .main-container {
   margin-top: -22%;
-  background: linear-gradient(hsl(0, 0%, 98%), white);
+  background-color: hsl(0, 0%, 98%);
   width: 100%;
   margin-left: 0;
   margin-right: 0;
@@ -119,4 +123,9 @@ p {
 
 .flex-article {
   padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.flex-item {
+  width: 24.5%;
 }
