@@ -129,3 +129,49 @@ p {
 .flex-item {
   width: 24.5%;
 }
+
+.article-container {
+  background: linear-gradient(white, hsl(0, 0%, 98%));
+  padding-top: 8%;
+}
+
+.article-container > h2 {
+  font-size: 45px;
+  font-weight: 400;
+  padding-bottom: 4%;
+}
+
+.card {
+  width: 24%;
+  margin-bottom: 8%;
+  border: 0;
+}
+
+.card-img-top {
+  height: 100%;
+}
+
+.card-body > span {
+  font-size: 14px;
+  color: hsl(233, 8%, 62%);
+}
+
+.card-title {
+  font-size: 23px;
+  font-weight: 400;
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+.card-title > a {
+  text-decoration: none;
+  color: hsl(233, 26%, 24%);
+}
+
+.card-title > a:hover {
+  color: hsl(136, 65%, 51%);
+}
+
+.card-text {
+  font-size: 16px;
+}
