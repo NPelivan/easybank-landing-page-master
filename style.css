@@ -175,3 +175,80 @@ p {
 .card-text {
   font-size: 16px;
 }
+
+footer {
+  background-color: hsl(233, 26%, 24%);
+  color: hsl(0, 0%, 98%);
+  height: 25vh;
+}
+
+.icon-container {
+  width: 20%;
+}
+
+.social-container > img {
+  margin-right: 5%;
+  width: 10%;
+  cursor: pointer;
+}
+
+.social-container > img:hover {
+  filter: invert(64%) sepia(77%) saturate(455%) hue-rotate(81deg)
+    brightness(93%) contrast(88%);
+}
+
+.bottom-nav ul:first-of-type {
+  margin-right: 20%;
+}
+
+.bottom-nav > ul > li {
+  margin-bottom: 5%;
+}
+.bottom-nav-list > li > a {
+  text-decoration: none;
+  color: white;
+}
+
+.bottom-nav-list > li > a:hover {
+  color: hsl(136, 65%, 51%);
+}
+
+.copy {
+  text-align: end;
+}
+
+.copy > button {
+  width: 80%;
+  padding: 5%;
+}
+
+@media (max-width: 1399.98px) {
+  .hero-image > img {
+    right: 15%;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .hero-image > img:nth-of-type(2) {
+    width: 100%;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .hero-image > img:nth-of-type(2) {
+    top: -2%;
+  }
+}
+
+.navbar-toggler {
+  background: white;
+  color: white;
+}
+
+.navbar-toggler:not(.collapsed) span {
+  background-image: url(images/icon-close.svg);
+}
+
+.collapsed span {
+  background-image: url(images/icon-hamburger.svg);
+}

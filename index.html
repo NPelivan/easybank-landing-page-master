@@ -30,18 +30,42 @@
       >
         <img src="images/logo.svg" alt="Logo Easybank" />
 
-        <ul class="navbar-nav m-auto h-100">
-          <li class="nav-item"><a class="nav-link h-100" href="#">Home</a></li>
-          <li class="nav-item"><a class="nav-link h-100" href="#">About</a></li>
-          <li class="nav-item">
-            <a class="nav-link h-100" href="#">Contact</a>
-          </li>
-          <li class="nav-item"><a class="nav-link h-100" href="#">Blog</a></li>
-          <li class="nav-item">
-            <a class="nav-link h-100" href="#">Careers</a>
-          </li>
-        </ul>
-        <button>Request Invite</button>
+        <button
+          class="navbar-toggler collapsed"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse"
+          id="navbarNav"
+          aria-expanded="false"
+          style="height: 0px"
+        >
+          <ul class="navbar-nav m-auto h-100">
+            <li class="nav-item">
+              <a class="nav-link h-100" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link h-100" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link h-100" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link h-100" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link h-100" href="#">Careers</a>
+            </li>
+          </ul>
+          <button class="btn">Request Invite</button>
+        </div>
       </nav>
     </header>
 
@@ -54,7 +78,7 @@
             one-stop-shop for spending, saving, budgeting, investing, and much
             more.
           </p>
-          <button class="btn2">Request Invite</button>
+          <button class="btn btn2">Request Invite</button>
         </div>
 
         <div class="hero-image w-100">
@@ -194,26 +218,54 @@
     </main>
 
     <footer>
-      <nav>
-        <ul>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Contact Blog</a></li>
-          <li><a href="#">Careers</a></li>
-          <li><a href="#">Support</a></li>
-          <li><a href="#">Privacy Policy</a></li>
-          <li><a href="#">Request Invite</a></li>
-        </ul>
-      </nav>
+      <div
+        class="w-75 m-auto d-flex align-items-center justify-content-between h-100"
+      >
+        <div class="icon-container d-block">
+          <img src="images/logo-white.svg" alt="Footer white logo" />
 
-      <button>Request Invite</button>
+          <div class="social-container mt-5 w-100">
+            <img src="images/icon-facebook.svg" alt="Facebook icon" />
+            <img src="images/icon-youtube.svg" alt="YouTube icon" />
+            <img src="images/icon-twitter.svg" alt="Twitter icon" />
+            <img src="images/icon-pinterest.svg" alt="Pinterest icon" />
+            <img
+              class="m-0"
+              src="images/icon-instagram.svg"
+              alt="Instagram icon"
+            />
+          </div>
+        </div>
+        <nav class="bottom-nav d-flex align-items-center w-50">
+          <ul class="bottom-nav-list list-unstyled mb-0">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Blog</a></li>
+            <li><a href="#">Careers</a></li>
+          </ul>
+          <ul class="bottom-nav-list list-unstyled mb-0">
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Request Invite</a></li>
+          </ul>
+        </nav>
 
-      <small>© Easybank. All Rights Reserved</small>
+        <div class="copy">
+          <button class="btn mb-3">Request Invite</button>
 
-      <script
-        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
-        crossorigin="anonymous"
-      ></script>
+          <small class="d-block">© Easybank. All Rights Reserved</small>
+        </div>
+      </div>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
